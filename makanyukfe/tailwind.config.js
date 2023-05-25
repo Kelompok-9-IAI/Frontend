@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       colors:{
@@ -12,7 +12,6 @@ module.exports = {
         darkgreen: "#23230B",
         lightgray: "#ECEEF0",
         beige: "#F6EFCF"
-
       },
     },
     fontSize:{
