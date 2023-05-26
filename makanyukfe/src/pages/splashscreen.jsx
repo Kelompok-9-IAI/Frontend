@@ -1,10 +1,10 @@
 import React from "react";
-import Logo from "../components/Opener";
+import Opener from "../components/Opener";
 
 function Splashscreen(){
   return(
     <>
-      <Logo/>
+      <Opener/>
     </>
   )
 }
