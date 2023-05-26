@@ -3,7 +3,7 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      colors:{
+      colors: {
         transparent: "transparent",
         current: "currentColor",
         black: "#000000",
@@ -11,10 +11,10 @@ module.exports = {
         white: "#FFFFFF",
         darkgreen: "#23230B",
         lightgray: "#ECEEF0",
-        beige: "#F6EFCF"
+        beige: "#F6EFCF",
       },
     },
-    fontSize:{
+    fontSize: {
       "h-xl": ["3rem", "4.5rem"], // 48px
       "h-lg": ["2rem", "3rem"], // 32px
       "h-md": ["1.5rem", "2.25rem"], // 24px
@@ -24,11 +24,9 @@ module.exports = {
       "b-md": ["0.875rem", "1.5rem"], // 14px
       "b-sm": ["0.75rem", "1.3rem"], // 12px
     },
-    fontFamily:{
-      primary:["Poppins"],
-
+    fontFamily: {
+      poppins: ["Poppins", "serif"],
     },
   },
   plugins: [],
 }
-
